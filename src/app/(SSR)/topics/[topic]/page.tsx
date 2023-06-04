@@ -11,7 +11,7 @@ type Props = {
 
 export function generateMetadata({ params: { topic } }: Props) {
   return {
-    title: topic + " - NextJS 13.4 Image Gallery",
+    title: `${topic} - NextJS 13.4 Image Gallery`,
   };
 }
 
