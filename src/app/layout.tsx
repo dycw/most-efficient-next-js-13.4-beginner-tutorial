@@ -1,3 +1,4 @@
+import NavBar from "./NavBar";
 import "@/app/globals.css";
 import { Container, SSRProvider } from "@/components/bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -19,6 +20,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <SSRProvider>
+          <NavBar />
           <main>
             <Container className="py-4">{children}</Container>
           </main>
